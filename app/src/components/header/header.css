@@ -1,0 +1,18 @@
+.Header {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 3px #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.Header a {
+  color: green;
+  text-decoration: none;
+}
