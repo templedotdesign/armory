@@ -12,4 +12,14 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  background-color:rgb(221, 198, 173);
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
