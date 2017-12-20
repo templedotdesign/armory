@@ -11,3 +11,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
+.About hr {
+  margin: 3px;
+}

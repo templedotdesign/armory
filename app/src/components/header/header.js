@@ -14,6 +14,8 @@ const header = () => {
             <li><NavLink to="/history" activeClassName={classes.active}>History</NavLink></li>          
             <li><NavLink to="/receptions" activeClassName={classes.active}>Receptions</NavLink></li>
             <li><NavLink to="/calendar" activeClassName={classes.active}>Calendar</NavLink></li>
+            <li><NavLink to="/board" activeClassName={classes.active}>Board Of Directors</NavLink></li>
+            <li><NavLink to="/membership" activeClassName={classes.active}>Become A Member</NavLink></li>
             <li><NavLink to="/faq" activeClassName={classes.active}>FAQ</NavLink></li>          
           </ul>
         </nav>

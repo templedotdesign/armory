@@ -1,0 +1,13 @@
+.menu {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+
+  font-size: 1.3rem;
+}
+
+@media(min-width: 501px) {
+  .Layout i {
+    display: none;
+  }
+}

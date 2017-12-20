@@ -18,6 +18,10 @@ const home = () => {
       <p>
         Our Hardin County Armory Ballroom, dressed its best for the Annual Mistletoe Ball.
       </p>
+      <br/>
+      <p>
+      For more photos, find us on Facebook.        
+      </p>
     </div>
   );
 };
