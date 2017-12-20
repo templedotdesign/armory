@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import classes from './header.css';
+import classes from './Header.css';
 
 const header = () => {
   return (

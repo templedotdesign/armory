@@ -1,13 +1,10 @@
 .Home {
-  width: 80%;
   margin: 0 auto;
   text-align: center;
-  background-color: white;
-  border-radius: 5px 5px 0 0;
   padding: 20px;
 }
 
-.Home img {
+/* .Home img {
   width: 60%;
   margin: 20px;
 }
@@ -16,11 +13,11 @@
   text-align: left;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 750px) {
   .Home p {
     text-align: center;
   }
-}
+} */
 
 
 

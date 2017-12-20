@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Header from '../header/header';
-import Sidedrawer from '../sidedrawer/sidedrawer';
 // import Footer from '../footer/footer';
+import Toolbar from './Toolbar/Toolbar';
+import Sidedrawer from './Sidedrawer/Sidedrawer';
 
-import classes from './layout.css';
+import classes from './Layout.css';
 
 class Layout extends Component {
   state = {
@@ -14,18 +14,18 @@ class Layout extends Component {
     this.setState({showSidedrawer: true})
   }
 
-  closeSideDrawerHandler = () => {
+  closeSidedrawerHandler = () => {
     this.setState({showSidedrawer: false})
   }
 
   render() {
     return (
       <div className={classes.Layout}>
-        <p className={classes.menu}>
+        <div className={classes.Menu}>
           <i className="fa fa-bars" aria-hidden="true" onClick={this.showSidedrawerHandler}></i>
-        </p>
-        <Header/>
-        <Sidedrawer open={this.state.showSidedrawer} closer={this.closeSideDrawerHandler}/>
+        </div>
+        <Toolbar/>
+        <Sidedrawer open={this.state.showSidedrawer} closer={this.closeSidedrawerHandler}/>
         {this.props.children}
         {/* <Footer/> */}
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import image from '../../assets/castle.jpeg'; 
-import classes from './history.css';
+import image from '../../../Assets/Castle.jpeg'; 
+import classes from './History.css';
 
 const history = () => {
   return (

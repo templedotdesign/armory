@@ -3,11 +3,12 @@
   position: fixed;
   top: 0;
   background-color: white;
+  border: 1px solid #ccc;
 }
 
 .Header header {
   height: 50px;
-  border: 1px solid #ccc;
+  
   /* box-shadow: 0 2px 3px #eee; */
 }
 

@@ -1,0 +1,23 @@
+.Toolbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Toolbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.Toolbar a.active, .Toolbar a:hover {
+  color: green;
+}
+
+@media(max-width: 750px) {
+  .Toolbar {
+    display: none;
+  }
+}
