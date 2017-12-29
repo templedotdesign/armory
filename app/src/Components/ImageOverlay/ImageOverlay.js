@@ -9,7 +9,7 @@ const imageOverlay = (props) => {
   }
   return (
     <div className={attachedClasses.join(' ')}>
-      <p>Click To View</p>
+      <p>Click To View Details</p>
     </div>
   );
 }
