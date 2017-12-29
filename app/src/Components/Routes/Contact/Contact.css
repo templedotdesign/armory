@@ -1,0 +1,18 @@
+.Contact {
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.Contact h1 {
+  text-align: center;
+}
+
+.Column {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 85%;
+}
+

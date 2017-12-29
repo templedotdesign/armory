@@ -1,0 +1,16 @@
+.Faq {
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.Faq h1 {
+  text-align: center;
+}
+
+.Column {
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

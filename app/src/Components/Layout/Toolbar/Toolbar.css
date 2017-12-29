@@ -3,17 +3,11 @@
   position: fixed;
   top: 0;
   background-color: white;
-  border: 1px solid #ccc;
   padding: 20px;
 }
 
-.Toolbar a {
-  text-decoration: none;
-  color: black;
-}
-
-.Toolbar a.active, .Toolbar a:hover {
-  color: green;
+.Toolbar a.active {
+  color: #aaa;
 }
 
 @media(max-width: 750px) {

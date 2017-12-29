@@ -13,7 +13,7 @@ const linkGroup = (props) => {
     <nav className={navClasses.join(' ')}>
       {props.links.map(link => {
         return (
-          <Link key={link.to} to={link.to} name={link.name} active={props.active} exact={link.exact}/>
+          <Link key={link.to} to={link.to} name={link.name} active={props.active} exact={link.exact} clicked={props.clicked}/>
         );
       })}
     </nav>

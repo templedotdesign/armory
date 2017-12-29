@@ -1,0 +1,34 @@
+.Membership {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.Membership h1 {
+  text-align: center;
+}
+
+.Membership p {
+  padding: 0 20px;
+}
+
+.Row {
+  height: 33vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Castle {
+  width: 33vw;
+  height: 100%;
+  background-image: url('../../../Assets/Castle.jpeg');
+  background-size: cover;
+}
+
+.Ballroom {
+  width: 33vw;
+  height: 100%;
+  background-image: url('../../../Assets/Ballroom.jpeg');
+  background-size: cover;
+}
+

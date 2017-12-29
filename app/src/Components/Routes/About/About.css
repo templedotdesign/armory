@@ -1,17 +1,39 @@
 .About {
-  width: 95%;
-  margin: 0 auto;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+.About h1 {
   text-align: center;
-  background-color: white;
-  border-radius: 5px;
-  padding: 20px;
 }
 
-.About img {
-  width: 100%;
-  margin-bottom: 20px;
+.About p {
+  padding: 0 20px;
 }
 
-.About hr {
-  margin: 3px;
+.Board {
+  text-align: center;
 }
+
+.Row {
+  height: 33vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% 0;
+}
+
+.Castle {
+  width: 33vw;
+  height: 100%;
+  background-image: url('../../../Assets/Castle.jpeg');
+  background-size: cover;
+}
+
+.Ballroom {
+  width: 33vw;
+  height: 100%;
+  background-image: url('../../../Assets/Ballroom.jpeg');
+  background-size: cover;
+}
+

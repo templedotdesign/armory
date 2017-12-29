@@ -15,6 +15,10 @@
   right: 10px;
 }
 
+.Sidedrawer a.active {
+  color: green;
+}
+
 .Open {
   transform: translateX(0);
 }

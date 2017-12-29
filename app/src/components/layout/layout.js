@@ -20,7 +20,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <div className={classes.Layout}>
+      <div>
         <div className={classes.Menu}>
           <i className="fa fa-bars" aria-hidden="true" onClick={this.showSidedrawerHandler}></i>
         </div>

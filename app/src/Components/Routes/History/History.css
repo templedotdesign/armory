@@ -1,32 +1,23 @@
 .History {
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 5px;
-  padding: 20px;
+  min-height: 100vh;
+  padding-top: 60px; 
+}
+
+.History h1 {
+  text-align: center;
 }
 
 .Row {
   display: flex;
-  margin-bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
 }
 
-.History img {
-  align-self: flex-start;
-  width: 50%;
-  margin-right: 10px;
+.Corner {
+  width: 30vw;
+  height: 100%;
+  background-image: url('../../../Assets/Corner.jpeg');
+  background-size: cover;
 }
 
-@media(max-width: 500px) {
-  .Row {
-    /* display: flex; */
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .History img {
-    width: 90%;
-    align-self: stretch;
-    margin: 10px auto;
-  }
-}

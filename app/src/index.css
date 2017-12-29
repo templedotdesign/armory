@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:400,700');
 
 html {
   box-sizing: border-box;
@@ -11,7 +11,17 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'BioRhyme', sans-serif;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #aaa;
 }
 
 
