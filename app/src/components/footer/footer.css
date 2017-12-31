@@ -1,8 +1,45 @@
 .Footer {
   width: 100%;
+  height: 70vh;
   background-color: black;
   color: white;
   text-align: center;
   padding: 10px 0;
+}
+
+.Row {
+  display: flex;
+}
+
+.ContactBlock {
+  width: 50%;
+  height: 100%;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.ContactBlock hr {
+  color: white;
+  width: 70%;
+}
+
+.ContactBlock a {
+  margin-bottom: 10px;
+}
+
+.Map {
+  width: 50%;
+}
+
+.Footer a {
+  color: white;
+}
+
+.Footer a:hover {
+  color: #aaa;
 }
 

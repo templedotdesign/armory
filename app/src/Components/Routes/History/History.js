@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import ScreenOverlay from '../../ScreenOverlay/ScreenOverlay';
 import Modal from '../../Modal/Modal';
 import ClickableImage from '../../ClickableImage/ClickableImage';
+import Footer from '../../Footer/Footer';
 
 import classes from './History.css';
 
@@ -81,54 +82,57 @@ class History extends Component {
       );
     }
     return (
-      <div className={classes.History}>
-        <ScreenOverlay visible={this.state.modalOpen} clicked={this.onModalClosed}>
-          <Modal>
-            {modalContents}
-          </Modal>
-        </ScreenOverlay>
-        <h1>Our History</h1>
-        <div className={classes.Row}>
-          <ClickableImage 
-            index={0} 
-            clicked={(event) => {this.onModalOpened(event, 0)}} 
-            visible={this.state.imageOverlayVisibility[0]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 0)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 0)}}/>
-          <ClickableImage 
-            index={1} 
-            clicked={(event) => {this.onModalOpened(event, 1)}} 
-            visible={this.state.imageOverlayVisibility[1]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 1)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 1)}}/>
-          <ClickableImage 
-            index={2} 
-            clicked={(event) => {this.onModalOpened(event, 2)}} 
-            visible={this.state.imageOverlayVisibility[2]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 2)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 2)}}/>
+      <div>
+        <div className={classes.History}>
+          <ScreenOverlay visible={this.state.modalOpen} clicked={this.onModalClosed}>
+            <Modal>
+              {modalContents}
+            </Modal>
+          </ScreenOverlay>
+          <h1>Our History</h1>
+          <div className={classes.Row}>
+            <ClickableImage 
+              index={0} 
+              clicked={(event) => {this.onModalOpened(event, 0)}} 
+              visible={this.state.imageOverlayVisibility[0]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 0)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 0)}}/>
+            <ClickableImage 
+              index={1} 
+              clicked={(event) => {this.onModalOpened(event, 1)}} 
+              visible={this.state.imageOverlayVisibility[1]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 1)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 1)}}/>
+            <ClickableImage 
+              index={2} 
+              clicked={(event) => {this.onModalOpened(event, 2)}} 
+              visible={this.state.imageOverlayVisibility[2]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 2)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 2)}}/>
+          </div>
+          <br/>
+          <div className={classes.Row}>
+            <ClickableImage 
+              index={3} 
+              clicked={(event) => {this.onModalOpened(event, 3)}} 
+              visible={this.state.imageOverlayVisibility[3]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 3)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 3)}}/>
+            <ClickableImage 
+              index={4} 
+              clicked={(event) => {this.onModalOpened(event, 4)}} 
+              visible={this.state.imageOverlayVisibility[4]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 4)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 4)}}/>
+            <ClickableImage 
+              index={5} 
+              clicked={(event) => {this.onModalOpened(event, 5)}} 
+              visible={this.state.imageOverlayVisibility[5]}
+              mouseEnter={(event) => {this.onMouseOverImage(event, 5)}}
+              mouseExit={(event) => {this.onMouseExitImage(event, 5)}}/>
+          </div>
         </div>
-        <br/>
-        <div className={classes.Row}>
-          <ClickableImage 
-            index={3} 
-            clicked={(event) => {this.onModalOpened(event, 3)}} 
-            visible={this.state.imageOverlayVisibility[3]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 3)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 3)}}/>
-          <ClickableImage 
-            index={4} 
-            clicked={(event) => {this.onModalOpened(event, 4)}} 
-            visible={this.state.imageOverlayVisibility[4]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 4)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 4)}}/>
-          <ClickableImage 
-            index={5} 
-            clicked={(event) => {this.onModalOpened(event, 5)}} 
-            visible={this.state.imageOverlayVisibility[5]}
-            mouseEnter={(event) => {this.onMouseOverImage(event, 5)}}
-            mouseExit={(event) => {this.onMouseExitImage(event, 5)}}/>
-        </div>
+        <Footer/>
       </div>
     );
   }
