@@ -26,14 +26,15 @@
 .Castle {
   width: 33vw;
   height: 100%;
-  background-image: url('../../../Assets/Castle.jpeg');
+  background-image: url('../../../Assets/armory.png');
   background-size: cover;
+  background-position: bottom;
 }
 
 .Ballroom {
   width: 33vw;
   height: 100%;
-  background-image: url('../../../Assets/Ballroom.jpeg');
+  background-image: url('../../../Assets/balcony.jpg');
   background-size: cover;
 }
 

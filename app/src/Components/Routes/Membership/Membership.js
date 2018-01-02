@@ -3,16 +3,15 @@ import React from 'react';
 import CallToAction from '../../CallToAction/CallToAction';
 import Footer from '../../Footer/Footer';
 
-import Form from '../../../Assets/Membership.pdf';
-
 import classes from './Membership.css';
 
 const membership = () => {
   let links = [
     {
       title: 'Membership Form',
-      address: Form,
-      download: 'Armory Membership Form.pdf'
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      address: 'https://drive.google.com/file/d/1TIM8Elyoom6SYfJSj9hStvJcpLHRxmYC/view?usp=sharing',
     }
   ];
   return (

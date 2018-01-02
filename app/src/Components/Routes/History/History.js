@@ -7,12 +7,12 @@ import Footer from '../../Footer/Footer';
 
 import classes from './History.css';
 
-import Corner from '../../../Assets/Corner.jpeg';
-import Car from '../../../Assets/Car.jpeg';
-import Basketball from '../../../Assets/Basketball.jpeg';
-import Damage from '../../../Assets/Damage.jpeg';
-import Castle from '../../../Assets/Castle.jpeg';
-import Ballroom from '../../../Assets/Ballroom.jpeg';
+import Armory from '../../../Assets/armory2.jpg';
+import Car from '../../../Assets/linemen.jpg';
+import Basketball from '../../../Assets/gym.png';
+import Damage from '../../../Assets/facade.jpeg';
+import Castle from '../../../Assets/armory.png';
+import Ballroom from '../../../Assets/balcony.jpg';
 
 class History extends Component {
   state = {
@@ -20,7 +20,7 @@ class History extends Component {
     currentImageIndex: 0,
     historyImages: [
       {
-        source: Corner, 
+        source: Armory, 
         caption: 'The Hardin County Armory was built in 1894 as a county guard armory. At the time, the adjutant general lived in Kenton, and built the armory with a grand ballroom and sauna.'
       },
       {

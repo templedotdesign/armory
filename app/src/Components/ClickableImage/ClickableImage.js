@@ -8,7 +8,7 @@ const clickableImage = (props) => {
   let attachedClasses = [classes.ClickableImage];
   switch(props.index) {
     case 0:
-      attachedClasses.push(classes.Corner);
+      attachedClasses.push(classes.Armory);
       break;
     case 1:
       attachedClasses.push(classes.Car);

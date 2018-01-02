@@ -6,32 +6,32 @@
   border-radius: 5px; 
 }
 
-.Corner {
-  background-image: url('../../Assets/Corner.jpeg');
+.Armory {
+  background-image: url('../../Assets/armory2.jpg');
   background-position: center;
 }
 
 .Car {
-  background-image: url('../../Assets/Car.jpeg');
+  background-image: url('../../Assets/linemen.jpg');
   background-position: center;
 } 
 
 .Basketball {
-  background-image: url('../../Assets/Basketball.jpeg');
+  background-image: url('../../Assets/gym.png');
   background-position: center;
 }
 
 .Damage {
-  background-image: url('../../Assets/Damage.jpeg');
+  background-image: url('../../Assets/facade.jpeg');
   background-position: center;
 }
 
 .Castle {
-  background-image: url('../../Assets/Castle.jpeg');
+  background-image: url('../../Assets/armory.png');
   background-position: center;
 }
 
 .Ballroom {
-  background-image: url('../../Assets/Ballroom.jpeg');
+  background-image: url('../../Assets/balcony.jpg');
   background-position: center;
 }

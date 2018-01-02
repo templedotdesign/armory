@@ -16,9 +16,40 @@
 }
 
 .Column {
-  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center
+}
+
+.Row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.Linemen {
+  width: 30vw;
+  min-height: 40vh;
+  background-image: url('../../../Assets/linemen.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.Castle {
+  width: 30vw;
+  min-height: 40vh;
+  background-image: url('../../../Assets/armory.png');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.Balcony {
+  width: 30vw;
+  min-height: 40vh;
+  background-image: url('../../../Assets/balcony.jpg');
+  background-size: cover;
+  background-position: bottom;
 }

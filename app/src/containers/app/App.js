@@ -9,7 +9,7 @@ import Gallery from '../../Components/Routes/Gallery/Gallery';
 import Receptions from '../../Components/Routes/Receptions/Receptions';
 import Membership from '../../Components/Routes/Membership/Membership';
 import Contact from '../../Components/Routes/Contact/Contact';
-import FAQ from '../../Components/Routes/Faq/Faq'; 
+import FAQ from '../../Components/Routes/Faq/Faq';
 
 class App extends Component {
   render() {
