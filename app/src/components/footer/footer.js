@@ -8,7 +8,7 @@ const footer = () => {
       <div className={classes.Row}>
         <div className={classes.ContactBlock}>
           <p>Email</p>
-          <a href='mailto:temple@templedesignsolutions.com'>temple@templedesignsolutions.com</a>
+          <a href='mailto:jrogers@hardincountyarmory.com'>jrogers@hardincountyarmory.com</a>
           <hr/>
           <p>Phone Number</p>
           <p>567-674-5618</p>

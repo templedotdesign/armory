@@ -1,10 +1,14 @@
 .Faq {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 60px;
 }
 
 .Faq h1 {
   text-align: center;
+}
+
+.Faq p {
+  padding: 0 20px;
 }
 
 .Column {

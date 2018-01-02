@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import CallToAction from '../../CallToAction/CallToAction';
-import ScreenOverlay from '../../ScreenOverlay/ScreenOverlay';
-import Modal from '../../Modal/Modal';
-import Footer from '../../Footer/Footer';
+import CallToAction from '../../../Components/CallToAction/CallToAction';
+import ScreenOverlay from '../../../Components/ScreenOverlay/ScreenOverlay';
+import Modal from '../../../Components/Modal/Modal';
+import Footer from '../../../Components/Footer/Footer';
 
 import classes from './Receptions.css';
 
@@ -21,6 +21,10 @@ class Receptions extends Component {
     event.preventDefault();
     this.setState({...this.state, modalOpen: false});
   };
+
+  componentDidMount() {
+    window.scroll(0,0);
+  }
 
   render() {
     let links = [
@@ -52,9 +56,9 @@ class Receptions extends Component {
               <p>
                 Kenton, OH 43326
               </p>
-              <p>
+              <a href='mailto:jrogers@hardincountyarmory.com'>
                 jrogers@hardincountyarmory.com
-              </p>
+              </a>
               <p>
                 567-674-5618
               </p>
@@ -75,7 +79,7 @@ class Receptions extends Component {
             to offer.  
           </p>
           <p>
-            This nationally-recognized historical building in our downtown district is an elegant and artistic 
+            This nationally-recognized historical building in our downtown historic district is an elegant and artistic 
             approach to wedding receptions.  We are within walking distance of several area churches. Offer your 
             guests a chance to attend a wedding with a small-town feel, and avoid the big-city budgets and 
             headaches.

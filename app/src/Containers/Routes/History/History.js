@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import ScreenOverlay from '../../ScreenOverlay/ScreenOverlay';
-import Modal from '../../Modal/Modal';
-import ClickableImage from '../../ClickableImage/ClickableImage';
-import Footer from '../../Footer/Footer';
+import ScreenOverlay from '../../../Components/ScreenOverlay/ScreenOverlay';
+import Modal from '../../../Components/Modal/Modal';
+import ClickableImage from '../../../Components/ClickableImage/ClickableImage';
+import Footer from '../../../Components/Footer/Footer';
 
 import classes from './History.css';
 
@@ -70,6 +70,10 @@ class History extends Component {
     visibilityArray[index] = false;
     this.setState({...this.state, imageOverlayVisibility: visibilityArray});
   };
+
+  componentDidMount() {
+    window.scroll(0,0);
+  }
 
   render() {
     let modalContents = null;
