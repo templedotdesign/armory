@@ -27,19 +27,13 @@ class Faq extends Component {
             returned if all is well after your event.
           </p>
           <p>
-            INCLUDED:  We provide 51 round tables, 6‑foot diameter, 24 8‑foot buffet tables with standard 2" 
+            We provide 51 round tables, 6‑foot diameter, 24 8‑foot buffet tables with standard 2" 
             tabletop thickness easily accepts skirting are also provided as well as approximately 440 
             upholstered chairs.  We provide paper products for the restrooms, trash bags and trash pick-up.  
             Our kitchen is set up for serving not preparing food.  We have 3 - refrigerators with no freezer 
             section (16.7 cubic feet) and a small chest freezer. The rental contract is for a 24‑hour period, 
             from 9am until 9am following day.  Friday is available for rent as an add‑on to a Saturday contract 
             for an additional fee.
-          </p>
-          <p>
-            The rental contract is for a 24-hour period, from 9am Saturday until 9am Sunday.  
-          </p>
-          <p>
-            Friday is available for rent as an add-on to a Saturday contract for an additional fee.
           </p>
           <p>
             No date may be held without a down payment.
@@ -50,10 +44,6 @@ class Faq extends Component {
           <p>
             The facility has heat/AC, handicapped access and a family/handicapped restroom which includes a 
             changing station.
-          </p>
-          <p>
-            Paper products for the restrooms and trash bags are provided by the Armory.  Trash removal is 
-            included in the rental fee.
           </p>
           <p>
             We do not have a preferred list of vendors.

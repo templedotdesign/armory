@@ -36,7 +36,8 @@ class Receptions extends Component {
       },
       {
         title: 'Make A Reservation',
-        clicked: this.onModalOpen
+        navigate: true,
+        to: '/contact'
       }
     ];
     return (
@@ -56,9 +57,7 @@ class Receptions extends Component {
               <p>
                 Kenton, OH 43326
               </p>
-              <a href='mailto:jrogers@hardincountyarmory.com'>
-                jrogers@hardincountyarmory.com
-              </a>
+              <a href='mailto:jrogers@hardincountyarmory.com'>jrogers@hardincountyarmory.com</a> 
               <p>
                 567-674-5618
               </p>
