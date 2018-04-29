@@ -1,0 +1,56 @@
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.statement {
+  font-size: 2em;
+  margin: 0 50px;
+}
+
+.action {
+  width: 80%;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 50px 0;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  font-size: 2em;
+  display: block;
+  width: 30%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.membership a {
+  color: black;
+  text-decoration: none;
+}
+
+@media(max-width:1500px) {
+  .heading {
+    font-size: 1.3em;
+  }
+  .button {
+    width: 80%;
+  }
+
+  .statement {
+    font-size: 1.3em;
+    margin: 0 20px;
+  }
+}

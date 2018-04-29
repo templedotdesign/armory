@@ -1,36 +1,40 @@
 import React, { Component } from 'react';
-// import Footer from '../footer/footer';
-import Toolbar from './Toolbar/Toolbar';
-import Sidedrawer from './Sidedrawer/Sidedrawer';
 
-import classes from './Layout.css';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 
 class Layout extends Component {
   state = {
-    showSidedrawer: false
+    hideMenu: true,
+    offset: window.pageYOffset
   }
 
-  showSidedrawerHandler = () => {
-    this.setState({showSidedrawer: true})
+  componentDidMount() {
+    window.addEventListener('scroll', this.updateOffset)
   }
 
-  closeSidedrawerHandler = () => {
-    this.setState({showSidedrawer: false})
+  updateOffset = () => {
+    this.setState({...this.state, offset: window.pageYOffset})
   }
 
-  render() {
+  toggleMenu = () => {
+    this.setState({...this.state, hideMenu: !this.state.hideMenu})
+  }
+
+  changeView = (view) => {
+    this.setState({...this.state, currentView: view})
+  }
+
+  render () {
+
     return (
       <div>
-        <div className={classes.Menu}>
-          <i className="fa fa-bars" aria-hidden="true" onClick={this.showSidedrawerHandler}></i>
-        </div>
-        <Toolbar/>
-        <Sidedrawer open={this.state.showSidedrawer} closer={this.closeSidedrawerHandler}/>
+        <Header hidden={this.state.hideMenu} clicked={this.toggleMenu} offset={this.state.offset}/>
         {this.props.children}
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     );
   }
-};
+}
 
 export default Layout;

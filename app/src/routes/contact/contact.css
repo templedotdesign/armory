@@ -1,0 +1,45 @@
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.row {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.detail {
+  font-size: 1.3em;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color:green;
+}
+
+.phoneLink:hover {
+  color: black;
+}
+
+@media(max-width:1500px) {
+  .heading {
+    font-size: 1.3em;
+  }
+  .detail {
+    font-size: 1em;
+  }
+}

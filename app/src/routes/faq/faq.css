@@ -1,0 +1,28 @@
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.question {
+  border-top: 5px solid rgb(51, 51, 51);
+  padding: 25px 0;
+  font-size: 1.3em;
+  width: calc(100vw - 120px);
+  margin: 0 auto;
+}
+
+.question p {
+  text-align: left;
+}
+
+@media(max-width: 1500px) {
+  .heading {
+    font-size: 1.3em;
+  }
+
+  .question {
+    font-size: 1em;
+    width: calc(100vw - 50px);
+  }
+}

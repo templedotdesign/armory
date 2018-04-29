@@ -1,0 +1,104 @@
+.heading {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.description {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.rowReverse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.row img, .rowReverse img {
+  width: 500px;
+}
+
+.row p, .rowReverse p {
+  font-size: 1.6em;
+  padding: 0 20px;
+
+}
+
+.board {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.postcards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.postcards img {
+  width: 30vw;
+  height: 20vw;
+}
+
+@media(max-width: 1500px) {
+  .description, .heading {
+    font-size: 1.3em;
+    
+  }
+
+  .description {
+    margin: 50px 20px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .rowReverse {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .row img, .rowReverse img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .row p, .rowReverse p {
+    font-size: 1em;
+    padding: 0;
+    text-align: center;
+  }
+
+  .postcards img {
+    width: 40vw;
+    height: 30vw;
+  }
+
+  .board {
+    font-size: 1.3em;
+  }
+
+  .board p {
+    margin: 10px;
+  }
+}
+
+@media(max-width: 750px) {
+  .postcards img {
+    width: 75vw;
+    height: 50vw;
+  }
+}
