@@ -29,6 +29,12 @@ import couchImg from '../../assets/couch1.png';
 //import mirrorImg from '../../assets/mirror.png'
 //import facadeImg from '../../assets/facade.png';
 //import gymImg from '../../assets/gym.png';
+import img831 from '../../assets/armory18318.jpg'
+import img832 from '../../assets/armory28318.jpg'
+import img833 from '../../assets/armory38318.jpg'
+import img834 from '../../assets/armory48318.jpg'
+import img835 from '../../assets/armory58318.jpg'
+import img836 from '../../assets/armory68318.jpg'
 
 class Gallery extends Component {
   state = {
@@ -57,7 +63,13 @@ class Gallery extends Component {
       // barImg,
       // mirrorImg,
       // facadeImg,
-      // gymImg
+      // gymImg,
+      img831,
+      img832,
+      img833,
+      img834,
+      img835,
+      img836
     ],
     hideOverlay: true,
     currentIndex: 0
