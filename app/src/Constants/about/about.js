@@ -9,6 +9,6 @@ export const board = [
   { title: 'Vice-President', name: 'Mark Doll' },
   { title: 'Secretary', name: 'Cindy Rogers' },
   { title: 'Tresurer', name: 'Doris Blum' },
-  { title: 'Trustees', name: 'Rick Hudgel, Jennifer Rogers' },
+  { title: 'Trustees', name: 'Rick Hudgel, Jennifer Rogers, Teresa S. Glover' },
   { title: 'Honorary Chairman', name: 'Red Fillinger'}
 ]
