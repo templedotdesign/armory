@@ -32,7 +32,7 @@ const footer = () => {
           <img className={classes.mobile} src={`https://maps.googleapis.com/maps/api/staticmap?center=Hardin+County+Armory,Kenton,OH&zoom=17&size=300x300&markers=color:blue%7CHardin+County+Armory,Kenton,OH&key=${API_KEY}`} alt='map'/>
         </div>
       </div>
-      <p>&copy; Hardin County Armory Restoration Foundation, 2018</p> 
+      <p>&copy; Hardin County Armory Restoration Foundation, {new Date().getFullYear()}</p> 
       <p>Created by Temple Design Solutions</p>
     </div>
   );

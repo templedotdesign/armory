@@ -36,6 +36,12 @@ import img834 from '../../assets/armory48318.jpg'
 import img835 from '../../assets/armory58318.jpg'
 import img836 from '../../assets/armory68318.jpg'
 
+import img291 from '../../assets/image291.jpeg'
+import img292 from '../../assets/image292.jpeg'
+import img293 from '../../assets/image293.jpeg'
+import img294 from '../../assets/image294.jpeg'
+import img295 from '../../assets/image295.jpeg'
+
 class Gallery extends Component {
   state = {
     images: [
@@ -69,7 +75,12 @@ class Gallery extends Component {
       img833,
       img834,
       img835,
-      img836
+      img836,
+      img291,
+      img292,
+      img293,
+      img294,
+      img295
     ],
     hideOverlay: true,
     currentIndex: 0
